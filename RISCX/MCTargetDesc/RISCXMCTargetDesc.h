@@ -1,0 +1,13 @@
+#ifndef LLVM_LIB_TARGET_RISCX_MCTARGETDESC_RISCXMCTARGERDESC_H
+#define LLVM_LIB_TARGET_RISCX_MCTARGETDESC_RISCXMCTARGERDESC_H
+
+#define GET_REGINFO_ENUM
+#include "RISCXGenRegisterInfo.inc"
+
+#define GET_INSTRINFO_ENUM
+#include "RISCXGenInstrInfo.inc"
+
+#define GET_SUBTARGETINFO_ENUM
+#include "RISCXGenSubtargetInfo.inc"
+
+#endif
